@@ -1,0 +1,318 @@
+@media(min-width:320px) and (max-width:575px) {
+
+    /*=== navbar part start  ===*/
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border: 1px solid #fff;
+    }
+
+    .navbar-toggler-icon {
+        background: #fff;
+    }
+
+    /*=== navbar part end  ===*/
+
+    /*=== banner part start ===*/
+    .banner_title h3 {
+        font-size: 26px;
+    }
+
+    .banner_title h4 {
+        font-size: 14px;
+        padding-top: 20px;
+    }
+
+    .banner_img img {
+        width: 280px;
+        height: auto;
+    }
+
+    .btn-banner {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    /*=== banner part end ===*/
+
+    /*=== Clients part start ===*/
+    .section_title h3 {
+        padding-top: 20px;
+    }
+
+    /*=== Clients part end ===*/
+
+    /*=== power of blockchain part start  ===*/
+    .extra_title h3 {
+        font-size: 26px;
+        letter-spacing: 0;
+    }
+
+    /*=== power of blockchain part end ===*/
+
+
+    /*===  Blockchain future part start ===*/
+    .future_single_box {
+        margin-bottom: 20px;
+    }
+
+    /*===  Blockchain future part end ===*/
+
+    /*=== Contact us part start start ===*/
+    .contact_img img {
+        width: 280px;
+        height: auto;
+    }
+
+    .contact_form_box {
+        padding-top: 50px;
+    }
+
+    .contact_form input {
+        padding: 10px 60px 10px 20px;
+    }
+
+    .contact_form textarea {
+        padding: 10px 60px 10px 20px;
+    }
+
+    /*=== Contact us part start end ===*/
+
+    /*=== Contact us part start end ===*/
+    .fotter_box input {
+        padding: 10px 60px 10px 20px
+    }
+
+    /*=== Contact us part start end ===*/
+
+}
+
+@media(min-width:576px) and (max-width:765px) {
+
+    /*=== navbar part start  ===*/
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border: 1px solid #fff;
+    }
+
+    .navbar-toggler-icon {
+        background: #fff;
+    }
+
+    /*=== navbar part end  ===*/
+
+    /*=== banner part start ===*/
+    .banner_title {
+        padding: 50px 0;
+    }
+
+    .banner_title h3 {
+        font-size: 26px;
+    }
+
+    .banner_title h4 {
+        font-size: 14px;
+        padding: 20px 0;
+    }
+
+    .banner_img img {
+        padding-top: 50px;
+        width: 250px;
+        height: auto;
+    }
+
+    .btn-banner {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    /*=== banner part end ===*/
+
+    /*=== Clients part start ===*/
+    .clints_logo {
+        margin-top: 30px;
+    }
+
+    .section_title h3 {
+        padding-top: 20px;
+    }
+
+    /*=== Clients part end ===*/
+
+    /*=== power of blockchain part start  ===*/
+    .extra_title h3 {
+        font-size: 26px;
+        letter-spacing: 0;
+    }
+
+
+    /*=== power of blockchain part end ===*/
+
+
+    /*===  Blockchain future part start ===*/
+    .future_single_box img {
+        width: 250px;
+        height: auto;
+        border: 0;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .future_single_box {
+        margin-bottom: 20px;
+    }
+
+    /*===  Blockchain future part end ===*/
+
+    /*=== Contact us part start start ===*/
+    .contact_img img {
+        width: 250px;
+        height: auto;
+    }
+
+    .contact_form_box {
+        padding-top: 50px;
+    }
+
+    .contact_form input {
+        padding: 10px 60px 10px 20px;
+    }
+
+    .contact_form textarea {
+        padding: 10px 60px 10px 20px;
+    }
+
+    /*=== Contact us part start end ===*/
+
+    /*=== Contact us part start end ===*/
+    .contact_form input {
+        padding: 10px 30px 10px 20px;
+    }
+
+    .contact_form textarea {
+        padding: 10px 30px 10px 20px;
+    }
+
+    .fotter_box input {
+        padding: 10px 60px 10px 20px;
+    }
+
+    /*=== Contact us part start end ===*/
+
+}
+
+
+@media(min-width:768px) and (max-width:991px) {
+
+    /*=== navbar part start  ===*/
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border: 1px solid #fff;
+    }
+
+    .navbar-toggler-icon {
+        background: #fff;
+    }
+
+    /*=== navbar part end  ===*/
+
+    /*=== banner part start ===*/
+    .banner_title h3 {
+        font-size: 32px;
+    }
+
+    .banner_title h4 {
+        font-size: 16px;
+    }
+
+    .banner_img img {
+        padding-top: 30px;
+        width: 320px;
+        height: auto;
+    }
+
+    .btn-banner {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    /*=== banner part end ===*/
+
+    /*===  Blockchain future part start ===*/
+    .future_single_box img {
+        margin-bottom: 30px;
+        width: 320px;
+        height: auto;
+        border: 0;
+    }
+
+
+    /*===  Blockchain future part end ===*/
+
+
+    /*=== Contact part start ===*/
+    .contact_img img {
+        width: 320px;
+        height: auto;
+    }
+
+    .contact_form input {
+        padding: 10px 40px 10px 20px;
+    }
+
+    .contact_form textarea {
+        padding: 10px 40px 10px 20px;
+    }
+
+    .fotter_box input {
+        padding: 10px 60px 10px 20px;
+    }
+
+    /*=== Contact us part start end ===*/
+
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+
+    /*=== banner part start ===*/
+    .banner_title h3 {
+        font-size: 36px;
+    }
+
+    .banner_title h4 {
+        font-size: 16px;
+    }
+
+    .banner_img img {
+        padding-top: 30px;
+        width: 420px;
+        height: auto;
+    }
+
+    .btn-banner {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    /*=== banner part end ===*/
+
+    /*===  Contact us part start ===*/
+    .contact_img img {
+        width: 420px;
+        height: auto;
+    }
+
+    /*===  Contact us part end ===*/
+}
+
+@media(min-width:1200px) and (max-width:1400px) {
+
+    /*=== Banner part start ===*/
+    .banner_img img {
+        width: 550px;
+        height: auto;
+    }
+
+    /*=== Banner part end ===*/
+}

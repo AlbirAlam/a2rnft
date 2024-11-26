@@ -1,0 +1,442 @@
+/*=== All pre css start here ===*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    outline: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+/*=== All pre css end here ===*/
+
+#main_background {
+    background: rgb(224, 24, 255);
+    background: radial-gradient(circle, rgba(224, 24, 255, 1) 0%, rgba(9, 1, 22, 1) 100%);
+    background-size: cover;
+}
+
+/*=== navbar part start ===*/
+
+#navbar_part {
+    padding: 10px 0 20px 0;
+    border-bottom: 1px solid rgba(203, 213, 225, 0.58);
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(203, 213, 225, 0.83);
+    font-weight: 600;
+    font-size: 16px;
+    padding: 17px;
+    transition: 0.4s;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+}
+
+
+
+.last_child {
+    padding: 0 22px;
+    background: linear-gradient(90deg, rgb(224, 24, 255) 0%, rgb(130, 63, 255) 100%);
+    ;
+    color: #000;
+    box-shadow: 0px 2.78px 5.57px 0px #ABBED166;
+    border-radius: 3px;
+
+}
+
+/*=== navbar part end ===*/
+
+/*=== Banner part end ===*/
+#Banner {
+    /*
+    background: rgb(224, 24, 255);
+    background: radial-gradient(circle, rgba(224, 24, 255, 1) 0%, rgba(9, 1, 22, 1) 100%);
+*/
+    text-align: center;
+}
+
+.banner_title {
+    text-align: left;
+    padding: 100px 0;
+    color: white;
+
+}
+
+.banner_title h3 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.banner_title h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-banner {
+    border: 0.5px solid #fff;
+    margin-top: 30px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.56);
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 6px;
+    transition: 0.5s linear all;
+}
+
+.btn-banner:hover {
+    background: linear-gradient(90deg, rgb(224, 24, 255) 0%, rgb(130, 63, 255) 100%);
+    border: 1px solid #fff;
+}
+
+/*=== Banner part end ===*/
+
+/*=== Our Clients part start ===*/
+#Our_clients {
+    padding: 50px 0;
+    text-align: center;
+    /*    background: radial-gradient(circle, rgba(9, 1, 22, 1) 0%, rgba(224, 24, 255, 1) 100%);*/
+
+}
+
+.section_title {
+    text-align: center;
+    color: #fff;
+
+
+}
+
+.section_title h3 {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.clints_logo {
+    background: linear-gradient(90deg, rgb(224, 24, 255) 0%, rgb(130, 63, 255) 100%);
+    border-radius: 4px;
+}
+
+.clints_logo ul li {
+    display: inline-block;
+    padding: 50px 70px;
+
+}
+
+.clints_logo ul li i {
+    font-size: 33px;
+    color: #fff;
+}
+
+
+/*=== power of blockchain part start ===*/
+#power_blockchain {
+    padding: 50px 0;
+}
+
+.extra_title h3 {
+    font-size: 32px;
+    padding-bottom: 10px;
+    letter-spacing: 4px;
+}
+
+.section_title h3 span {
+    display: block;
+}
+
+.sector_box {
+    margin: 50px 0;
+    border: 0.5px solid #fff;
+    text-align: center;
+    padding: 50px 0;
+    background: linear-gradient(90deg, rgb(224, 24, 255) 0%, rgb(130, 63, 255) 100%);
+    border-radius: 10px;
+}
+
+.sector_box i {
+    font-size: 33px;
+    color: #CBD5E1;
+}
+
+.sector_txt h6 {
+    font-size: 19px;
+    color: #CBD5E1;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 10px 0;
+
+
+}
+
+.sector_txt h6 span {
+    display: block;
+}
+
+.sector_txt p {
+    color: rgba(0, 0, 0, 0.56);
+    font-weight: 600;
+    padding: 0 35px;
+}
+
+/*=== power of blockchain part end ===*/
+
+/*=== Helping blockchain part start ===*/
+#helping_blockchain {
+    padding: 50px 0;
+    background: linear-gradient(90deg, rgb(224, 24, 255) 0%, rgb(130, 63, 255) 100%)
+}
+
+.helping_blockchain_txt {
+    padding-top: 20px;
+    color: #fff;
+
+}
+
+.helping_blockchain_txt h3 {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+}
+
+.helping_blockchain_txt span {
+    display: block;
+}
+
+.help_box {
+    padding: 20px;
+    display: flex;
+}
+
+.help_icon {
+    margin: auto 0;
+
+}
+
+.help_icon i {
+
+    color: #fff;
+    font-size: 33px;
+}
+
+.help_txt {
+    padding-left: 10px;
+}
+
+.help_txt p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0
+}
+
+.help_txt span {
+    font-size: 13px;
+    color: #dee6f0;
+}
+
+/*=== Helping blockchain part end ===*/
+
+/*=== Blockchain future part start ===*/
+#blockchain_fature {
+    padding: 100px 0;
+}
+
+.fature_boxs {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.future_single_box img {
+
+    border: 1px solid #fff;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.future_single_box:hover .image {
+    opacity: 0.3;
+}
+
+.future_single_box:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background: linear-gradient(90deg, rgb(224, 24, 255) 0%, rgb(130, 63, 255) 100%);
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+/*=== Blockchain future part end ===*/
+
+/*=== Contact us part end ===*/
+#contact {
+    padding: 50px 0;
+    /*    background: linear-gradient(90deg, rgba(224, 24, 255, 0.51) 0%, rgba(130, 63, 255, 0.5) 100%);*/
+    background: rgba(10, 9, 9, 0.31);
+
+}
+
+.contact_img {
+    text-align: left;
+}
+
+.contact_img img {
+    height: 400px;
+    width: auto;
+}
+
+.contact_form_box {
+    text-align: right;
+}
+
+.contact_form {
+    text-align: left;
+}
+
+.contact_form input {
+    /*    display: block;*/
+    margin-bottom: 20px;
+    padding: 10px 250px 10px 20px;
+}
+
+.contact_form textarea {
+    padding: 10px 250px 50px 0;
+    margin-bottom: 30px;
+}
+
+.contact_form label {
+    color: #fff;
+    display: block;
+}
+
+.contact_form submit {
+    text-transform: uppercase;
+    padding: 10px 25px;
+    color: rgb(10, 9, 9);
+    background: #fff;
+    transition: 0.5s linear all;
+}
+
+.contact_form submit:hover {
+    background: linear-gradient(90deg, rgb(224, 24, 255) 0%, rgb(130, 63, 255) 100%);
+}
+
+/*=== Contact us part end ===*/
+
+/*=== fotter part start ===*/
+#fotter {
+    padding: 150px 0;
+}
+
+.copy_txt p {
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.copy_txt p span {
+    display: block
+}
+
+.social_link ul li {
+    display: inline-block;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.social_link i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.fotter_box h6 {
+    padding: 20px 0;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.fotter_box ul li {
+    padding-bottom: 5px;
+}
+
+.fotter_box ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.fotter_box_form {
+    display: flex;
+}
+
+.fotter_box_form {
+    position: relative;
+    z-index: 99999999
+}
+
+.fotter_box input {
+    padding: 10px 90px 10px 20px;
+    margin: 0;
+
+}
+
+.pos_btn {
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    right: 60px;
+    bottom: 22px;
+    padding: 15px 22px;
+    color: rgba(10, 9, 9, 0.69);
+    font-size: 19px;
+    margin: 0;
+}
+
+/*=== fotter part end ===*/
